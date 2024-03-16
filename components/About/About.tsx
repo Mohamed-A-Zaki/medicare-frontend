@@ -1,6 +1,6 @@
 import about_img from "@/assets/images/about.png";
 import about_card from "@/assets/images/about-card.png";
-import { Container, Image, SimpleGrid, Title } from "@mantine/core";
+import { Button, Container, Image, SimpleGrid, Title } from "@mantine/core";
 import NextImage from "next/image";
 
 export default function About() {
@@ -19,7 +19,7 @@ export default function About() {
               src={about_card}
               alt="about-card"
               component={NextImage}
-              className="!w-[400px] absolute bottom-10 -right-6"
+              className="!w-[350px] absolute bottom-10 -right-5"
             />
           </div>
 
@@ -39,6 +39,10 @@ export default function About() {
               exercitationem eos, deserunt autem maxime delectus vitae possimus?
               Unde quo suscipit ea recusandae?
             </p>
+
+            <Button className="!rounded-full !bg-primaryColor">
+              learn more
+            </Button>
           </div>
         </SimpleGrid>
       </Container>
