@@ -36,7 +36,7 @@ export default function HeroLeft() {
         Request an Appointment
       </Button>
 
-      <SimpleGrid className="mt-7" cols={{ base: 3, md: 2, lg: 3 }}>
+      <SimpleGrid className="mt-7" cols={{ base: 2, sm: 3, md: 2, lg: 3 }}>
         {stats.map(({ id, color, title, description }) => {
           return (
             <div key={id}>

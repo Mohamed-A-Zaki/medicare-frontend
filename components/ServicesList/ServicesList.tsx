@@ -4,7 +4,7 @@ import ServiceCard from "../ServiceCard";
 
 export default function ServicesList() {
   return (
-    <SimpleGrid cols={{ base: 1, md: 2, lg: 3 }} spacing={"xl"}>
+    <SimpleGrid cols={{ base: 1, sm: 2, md: 3 }} spacing={"xl"}>
       {services.map((service) => {
         return <ServiceCard key={service.id} {...service} />;
       })}

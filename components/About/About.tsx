@@ -19,7 +19,7 @@ export default function About() {
               src={about_card}
               alt="about-card"
               component={NextImage}
-              className="!w-[350px] absolute bottom-10 -right-5"
+              className="!w-[350px] absolute bottom-10 -right-3"
             />
           </div>
 

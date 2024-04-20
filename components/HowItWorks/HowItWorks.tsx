@@ -6,20 +6,17 @@ import imag2 from "@/assets/images/icon02.png";
 import imag3 from "@/assets/images/icon03.png";
 
 import { FaArrowRight } from "react-icons/fa6";
+import SectionHeading from "@/common/SectionHeading";
+import MainLink from "@/common/MainLink";
 
 export default function HowItWorks() {
   return (
     <section className="py-24 text-center">
       <Container size={"lg"}>
-        <div className="w-96 m-auto">
-          <Title order={2} className="!text-4xl">
-            Providing the best medical services
-          </Title>
-          <p className="text-gray-500 my-7 text-sm">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            vitae cum iste maiores nulla accusantium.
-          </p>
-        </div>
+        <SectionHeading
+          title="Providing the best medical services"
+          description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit vitae cum iste maiores nulla accusantium."
+        />
 
         <SimpleGrid cols={{ base: 1, md: 2, lg: 3 }}>
           <div>
@@ -37,7 +34,8 @@ export default function HowItWorks() {
               incidunt cupiditate delectus, voluptatibus a dolorem rerum omnis
               dolorum architecto officia.
             </p>
-            <FaArrowRight className="m-auto w-10 h-10 border border-black rounded-full p-2 cursor-pointer hover:bg-primaryColor hover:text-white hover:border-primaryColor transition duration-300" />
+
+            <MainLink href="#" />
           </div>
           <div>
             <Image
@@ -54,7 +52,7 @@ export default function HowItWorks() {
               incidunt cupiditate delectus, voluptatibus a dolorem rerum omnis
               dolorum architecto officia.
             </p>
-            <FaArrowRight className="m-auto w-10 h-10 border border-black rounded-full p-2 cursor-pointer hover:bg-primaryColor hover:text-white hover:border-primaryColor transition duration-300" />
+            <MainLink href="#" />
           </div>
           <div>
             <Image
@@ -71,7 +69,7 @@ export default function HowItWorks() {
               incidunt cupiditate delectus, voluptatibus a dolorem rerum omnis
               dolorum architecto officia.
             </p>
-            <FaArrowRight className="m-auto w-10 h-10 border border-black rounded-full p-2 cursor-pointer hover:bg-primaryColor hover:text-white hover:border-primaryColor transition duration-300" />
+            <MainLink href="#" />
           </div>
         </SimpleGrid>
       </Container>
