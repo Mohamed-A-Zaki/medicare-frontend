@@ -1,16 +1,17 @@
+import { Container, Title } from "@mantine/core";
+import ServicesList from "../../components/ServicesList";
 import SectionHeading from "@/common/SectionHeading";
-import { Container } from "@mantine/core";
-import DoctorsList from "../DoctorsList";
 
-export default function Doctors() {
+export default function Services() {
   return (
     <section className="py-24">
       <Container size={"lg"}>
         <SectionHeading
-          title="Our Greet Doctors"
+          title="Our medical services"
           description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit vitae cum iste maiores nulla accusantium."
         />
-        <DoctorsList />
+
+        <ServicesList />
       </Container>
     </section>
   );

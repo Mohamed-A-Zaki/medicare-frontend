@@ -1,7 +1,7 @@
 import { Container, Image, SimpleGrid, Title } from "@mantine/core";
 import faq from "@/assets/images/faq-img.png";
 import NextImage from "next/image";
-import FaqList from "../FaqList";
+import FaqList from "../../components/FaqList";
 
 export default function Faq() {
   return (
