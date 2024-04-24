@@ -5,7 +5,7 @@ import FaqList from "../FaqList";
 
 export default function Faq() {
   return (
-    <section className="py-24">
+    <section>
       <Container size={"lg"}>
         <SimpleGrid cols={{ base: 1, sm: 2 }} className="items-center">
           <div>
@@ -13,7 +13,7 @@ export default function Faq() {
               component={NextImage}
               src={faq}
               alt="faq_mg"
-              className="w-[400px] max-w-full"
+              className="!w-[400px] max-w-full"
             />
           </div>
           <div>
