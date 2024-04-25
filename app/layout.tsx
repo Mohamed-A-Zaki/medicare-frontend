@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { MantineProvider } from "@mantine/core";
 import { Toaster } from "react-hot-toast";
+import Providers from "@/common/Providers";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -22,12 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={manrope.className}>
-        <MantineProvider>
+        <Providers>
           <Navbar />
           {children}
           <Footer />
           <Toaster position="top-center" />
-        </MantineProvider>
+        </Providers>
       </body>
     </html>
   );

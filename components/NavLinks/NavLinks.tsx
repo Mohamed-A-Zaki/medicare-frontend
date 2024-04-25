@@ -27,11 +27,11 @@ const links = [
   },
 ];
 
-export default function NavLinks() {
+export default function NavLinks({ className }: { className?: string }) {
   const pathname = usePathname();
 
   return (
-    <Group gap={"xl"}>
+    <Group gap={"xl"} className={className}>
       {links.map(({ id, link, text }) => {
         return (
           <Link
