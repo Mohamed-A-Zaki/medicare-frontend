@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mantine-Carousel-indicators {
+  bottom: -25px !important;
+}
+.mantine-Carousel-indicators .mantine-Carousel-indicator {
+  @apply !bg-white w-[12px] h-[12px] rounded-full;
+  border: 1.5px solid #000;
+}
+.mantine-Carousel-controls {
+  @apply !hidden;
+}

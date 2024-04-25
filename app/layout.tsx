@@ -1,5 +1,6 @@
 import "./globals.css";
 import "@mantine/core/styles.css";
+import '@mantine/carousel/styles.css';
 
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
