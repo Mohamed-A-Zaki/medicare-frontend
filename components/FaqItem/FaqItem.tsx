@@ -15,7 +15,7 @@ export default function FaqItem({ question, answer }: IQuestion) {
         {open ? (
           <FaMinus
             size={30}
-            className="p-2 border rounded-md cursor-pointer"
+            className="p-2 border rounded-md cursor-pointer hover:bg-primaryColor hover:text-white transition duration-300"
             onClick={() => {
               setOpen(false);
             }}
@@ -23,7 +23,7 @@ export default function FaqItem({ question, answer }: IQuestion) {
         ) : (
           <FaPlus
             size={30}
-            className="p-2 border rounded-md cursor-pointer"
+            className="p-2 border rounded-md cursor-pointer hover:bg-primaryColor hover:text-white transition duration-300"
             onClick={() => {
               setOpen(true);
             }}
