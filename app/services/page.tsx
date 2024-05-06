@@ -1,3 +1,12 @@
+import ServicesList from "@/components/ServicesList";
+import { Container } from "@mantine/core";
+
 export default function Services() {
-  return <div>Services page</div>;
+  return (
+    <>
+      <Container size={"lg"} className="py-24">
+        <ServicesList />
+      </Container>
+    </>
+  );
 }

@@ -12,3 +12,6 @@
 .mantine-Carousel-controls {
   @apply !hidden;
 }
+input[type="search"] {
+  @apply !rounded-e-none;
+}

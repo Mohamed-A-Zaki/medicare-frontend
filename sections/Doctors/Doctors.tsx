@@ -10,7 +10,7 @@ export default function Doctors() {
           title="Our Greet Doctors"
           description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit vitae cum iste maiores nulla accusantium."
         />
-        <DoctorsList />
+        <DoctorsList lg={3} />
       </Container>
     </section>
   );

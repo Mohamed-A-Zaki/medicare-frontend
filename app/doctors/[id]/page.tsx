@@ -5,7 +5,5 @@ type DoctorDetailsProps = {
 };
 
 export default function DoctorDetails({ params: { id } }: DoctorDetailsProps) {
-  console.log(id);
-
-  return <div>DoctorDetails page</div>;
+  return <></>;
 }
