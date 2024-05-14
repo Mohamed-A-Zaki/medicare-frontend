@@ -11,13 +11,14 @@ export default function Login() {
       <div className="my-5">
         <Input type="email" placeholder="Enter Your Email" />
       </div>
-      
 
       <div className="my-5">
         <Input type="password" placeholder="Password" />
       </div>
 
-      <Button className="!mb-5 !w-full !block !bg-primaryColor" type="submit">Login</Button>
+      <Button className="!mb-5 !w-full !block !bg-primaryColor" type="submit">
+        Login
+      </Button>
 
       <div className="text-textColor text-center">
         Don&#39;t have an account?{" "}
