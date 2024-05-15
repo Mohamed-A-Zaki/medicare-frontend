@@ -15,3 +15,6 @@
 input[type="search"] {
   @apply !rounded-e-none;
 }
+textarea {
+  @apply !h-[100px];
+}
