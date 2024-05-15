@@ -1,4 +1,4 @@
-import { Button, Input, Title } from "@mantine/core";
+import { Button, Input, PasswordInput, Title } from "@mantine/core";
 import Link from "next/link";
 
 export default function Login() {
@@ -13,7 +13,7 @@ export default function Login() {
       </div>
 
       <div className="my-5">
-        <Input type="password" placeholder="Password" />
+        <PasswordInput type="password" placeholder="Password" />
       </div>
 
       <Button className="!mb-5 !w-full !block !bg-primaryColor" type="submit">
